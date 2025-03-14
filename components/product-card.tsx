@@ -35,7 +35,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 <CardDescription className="">{product.description.slice(0,80)}...</CardDescription>
             </CardContent>
             <CardFooter className="p-4 flex justify-end">
-                <Button className="cursor-pointer">
+                <Button className="cursor-pointer hidden">
                     <ShoppingCartIcon className="size-4"/>
                     Add to Cart
                 </Button>
