@@ -1,4 +1,3 @@
-import Navbar from "@/components/navbar";
 import ProductCard from "@/components/product-card";
 import ProductsFilter from "@/components/products-filter";
 import type { SearchParams } from 'nuqs/server'

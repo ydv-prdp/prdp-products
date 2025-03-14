@@ -6,8 +6,6 @@ interface Product {
     category: Category;
     images: string[];
   }
-
-
   interface Category {
     id: number;
     name: string;
